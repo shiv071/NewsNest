@@ -41,13 +41,13 @@ function App () {
       />
       <div className="container my-5">
         <Routes>
-          <Route path="/" element={ <News setProgress={setProgress} apiKey={apiKey} key="general" mode={mode} pageSize={pageSize} countryName="in" category="general"/>}></Route>
-          <Route path="/business" element={ <News setProgress={setProgress} apiKey={apiKey} key="business" mode={mode} pageSize={pageSize} countryName="in" category="business"/>}></Route>
-          <Route path="/entertainment" element={ <News setProgress={setProgress} apiKey={apiKey} key="entertainment" mode={mode} pageSize={pageSize} countryName="in" category="entertainment"/>}></Route>
-          <Route path="/health" element={ <News setProgress={setProgress} apiKey={apiKey} key="health" mode={mode} pageSize={pageSize} countryName="in" category="health"/>}></Route>
-          <Route path="/science" element={ <News setProgress={setProgress} apiKey={apiKey} key="science" mode={mode} pageSize={pageSize} countryName="in" category="science"/>}></Route>
-          <Route path="/sports" element={ <News setProgress={setProgress} apiKey={apiKey} key="sports" mode={mode} pageSize={pageSize} countryName="in" category="sports"/>}></Route>
-          <Route path="/technology" element={ <News setProgress={setProgress} apiKey={apiKey} key="technology" mode={mode} pageSize={pageSize} countryName="in" category="technology"/>}></Route>
+          <Route path="/" element={ <News setProgress={setProgress}  key="general" mode={mode} pageSize={pageSize} countryName="in" category="general"/>}></Route>
+          <Route path="/business" element={ <News setProgress={setProgress} key="business" mode={mode} pageSize={pageSize} countryName="in" category="business"/>}></Route>
+          <Route path="/entertainment" element={ <News setProgress={setProgress}  key="entertainment" mode={mode} pageSize={pageSize} countryName="in" category="entertainment"/>}></Route>
+          <Route path="/health" element={ <News setProgress={setProgress}  key="health" mode={mode} pageSize={pageSize} countryName="in" category="health"/>}></Route>
+          <Route path="/science" element={ <News setProgress={setProgress}  key="science" mode={mode} pageSize={pageSize} countryName="in" category="science"/>}></Route>
+          <Route path="/sports" element={ <News setProgress={setProgress}  key="sports" mode={mode} pageSize={pageSize} countryName="in" category="sports"/>}></Route>
+          <Route path="/technology" element={ <News setProgress={setProgress}  key="technology" mode={mode} pageSize={pageSize} countryName="in" category="technology"/>}></Route>
         </Routes>
       </div>
     </BrowserRouter>
